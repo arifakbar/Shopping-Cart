@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="upperBody">
+            <h1>THE SHOPPING CART</h1>
+            <button id="cartBtn">ADD A NEW PRODUCT</button>
+        </div>
+        <h3 id="independent">All Avialable Products</h3>
+        <hr>
+        <div id="lowerBody"></div>
+    </div>
+    <div class="banner" style="display: none;">
+        <i id="closeBtn" class="fa fa-times" aria-hidden="true"></i>
+        <h2>Enter Details</h2>
+        <label for="enterTitle">Title
+            <input type="text" id="enterTitle" placeholder="Enter Title">
+        </label>
+        <label for="enterCtg">Category
+            <input type="text" id="enterCtg" placeholder="Enter Category">
+        </label>
+        <label for="enterImg">Image
+            <input type="text" id="enterImg" placeholder="Enter Image">
+        </label>
+        <button id="enterBtn">Click to Add</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
